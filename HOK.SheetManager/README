@@ -1,0 +1,35 @@
+v.0.1.5 (New Sheet Manager)
+- Combined Visual Studio projects
+- Custom Parameter Support (new data structure)
+- Modeless Dialog
+
+v.0.1.12
+Fix
+-Fixed an error occured while reading Excel worksheets for adding views.
+
+v.0.1.11
+New
+- Options for create viewsheets and create placeholder sheets
+- Existing placeholder sheets will be marekd with gray text with a suffix "(Placeholder)"
+
+v.0.1.10
+New
+- Tree View with sheet number and sheet name
+- Refreshed lists of sheets after creating sheets
+- Finding master path for .ini file
+
+v.0.1.6
+Fix
+Problems fixed of Add Views in 2015 version
+
+v.0.1.5
+Fix
+The option of "Create .ini" will create a SheetMaker.ini file in a user-selected directory
+
+New
+The file path of the .ini will be shown in the status label in the bottom of the main UI.
+
+v.0.1.4
+Fix
+Errors occured when some of sheets are already placed in the Revit project but title blocks
+

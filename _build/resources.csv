@@ -1,0 +1,4 @@
+﻿sourcePath,fileName,destination
+HOK.Navigator\HOK.Navigator\Resources,HOK.Help.txt,HOK-Addin.bundle\Contents\Resources\
+HOK.Navigator\HOK.Navigator\Resources,HOK.Installer.txt,HOK-Addin.bundle\Contents\Resources\
+HOK.RibbonTab\HOK.RibbonTab\Resources,HOK.Tooltip.txt,HOK-Addin.bundle\Contents\Resources\

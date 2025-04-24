@@ -1,0 +1,88 @@
+# .NET Desktop
+# Build and run tests for .NET Desktop or Windows classic desktop solutions.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
+
+trigger:
+  branches:
+    include:
+    - master
+    - release/*
+  tags:
+    include:
+    - 0.*
+
+parameters:
+- name: 'Build2025'
+  type: boolean
+  default: true
+  displayName: '2025'
+- name: 'Build2024'
+  type: boolean
+  default: false
+  displayName: '2024'
+- name: 'Build2023'
+  type: boolean
+  default: false
+  displayName: '2023'
+- name: 'Build2022'
+  type: boolean
+  default: false
+  displayName: '2022'
+- name: 'Build2021'
+  type: boolean
+  default: false
+  displayName: '2021'
+- name: 'Build2020'
+  type: boolean
+  default: false
+  displayName: '2020'
+- name: 'Build2019'
+  type: boolean
+  default: false
+  displayName: '2019'
+- name: 'buildConfig'
+  type: string
+  default: 'Release'
+  values:
+  - 'Release'
+  - 'Debug'
+  displayName: 'Build Configuration'
+
+
+jobs:
+- ${{ if eq(parameters.Build2025, 'true') }}:
+  - template: _build/build.yml
+    parameters:
+      buildConfiguration: '${{ parameters.buildConfig }} R25'
+      revitVersion: '2025'
+- ${{ if eq(parameters.Build2024, 'true') }}:
+  - template: _build/build.yml
+    parameters:
+      buildConfiguration: '${{ parameters.buildConfig }} R24'
+      revitVersion: '2024'
+- ${{ if eq(parameters.Build2023, 'true') }}:
+  - template: _build/build.yml
+    parameters:
+      buildConfiguration: '${{ parameters.buildConfig }} R23'
+      revitVersion: '2023'
+- ${{ if eq(parameters.Build2022, 'true') }}:
+  - template: _build/build.yml
+    parameters:
+      buildConfiguration: '${{ parameters.buildConfig }} R22'
+      revitVersion: '2022'
+- ${{ if eq(parameters.Build2021, 'true') }}:
+  - template: _build/build.yml
+    parameters:
+      buildConfiguration: '${{ parameters.buildConfig }} R21'
+      revitVersion: '2021'
+- ${{ if eq(parameters.Build2020, 'true') }}:
+  - template: _build/build.yml
+    parameters:
+      buildConfiguration: '${{ parameters.buildConfig }} R20'
+      revitVersion: '2020'
+- ${{ if eq(parameters.Build2019, 'true') }}:
+  - template: _build/build.yml
+    parameters:
+      buildConfiguration: '${{ parameters.buildConfig }} R19'
+      revitVersion: '2019'

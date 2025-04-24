@@ -1,0 +1,59 @@
+View Mover (previously Camera Duplicator) v.0.1.1
+New
+-In addition to camera views, duplicate plan views with mapping configuration.
+
+Camera Duplicator v.0.1.0
+New 
+-Duplicate camera views from one project to another with orientation, display style, crop box, section box, and parameter values.
+
+Room Updater v.0.4.13
+Fix
+- Read-only family parameters will be found in the parameter list to support familis existed in groups.
+
+Finish Creator v.0.4.11
+New 
+-Create Ceiling Finish
+
+View Creator v.0.4.11
+Fix
+- Check whether the view discipline is writable or not
+
+v.0.4.14
+Room Elevation 
+New 
+- "Create by Room List" and "Create by Pick Elements" commands with elevation views settings.
+- Extensible storage for the created elevation views and the settings 
+- Multiple elevation views for "Create by Pick Elements"
+
+Room Updater
+Fix
+- skip linked isntance if it cannot get the title of the linked document.
+- skip unplaced rooms of which area is less than zero.
+
+v.o.4.9
+Room Elevation - New Tool
+- This will create elevation views from a room and a wall to determine the direction of elevation marker.
+
+v.0.4.6
+Room Updater
+New
+- In addition to built-in and project parameters, the Room Updater will now display the family specific parameters in the list.
+Fix
+- Parameter names starting with "Extensions." will no loger be displayed in the list.
+
+v.0.4.5
+Fix
+-In case of linked rooms or spaces, either IsPointInRoom or IsPointInSpace should be executed with a point location transformed inversely. 
+
+v.0.4.4
+Fix
+-Filter elements by room bounding boxes and deterime whether the point of the location of each Revit elements is placed inside of rooms or not.
+
+v.0.4.3
+Fix
+-Filter elements by room bounding boxes
+
+v.0.4.2
+New
+- Room Updater has been added as a new command under Utility Tools
+- View Depth tool has a new feature that clear all overrides applied by the tool, when running the tool second time on the same view.

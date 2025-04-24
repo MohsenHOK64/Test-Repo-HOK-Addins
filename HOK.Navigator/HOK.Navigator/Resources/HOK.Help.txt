@@ -1,0 +1,28 @@
+Email Help and Support
+mailto:helpdesk@hok.com
+-------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
+HOK Design Technology Home (Must be inside HOK firewall)
+https://hub.hok.com/designtech/Pages/home.aspx
+HOK BIM Standards (Must be inside HOK firewall)
+https://hub.hok.com/designtech/revit/Pages/HOK-Standards.aspx
+HOK Training 
+https://hub.hok.com/designtech/Pages/Guides-and-Slides.aspx
+LinkedIn Learning
+https://hub.hok.com/designtech/Pages/LinkedIn-Learning.aspx
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Autodesk User Group International (AUGI)
+http://www.augi.com/
+BIM 360 / ACC 
+https://acc.autodesk.com/
+Autodesk Community
+http://forums.autodesk.com/
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+dRofus Install Instructions:
+https://docs.google.com/document/d/11FKqTT-YxJr5jWeaHQmWFPLCPABr5A69580ANcVig9Y/pub
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Version 2022-11-22
+------------------
